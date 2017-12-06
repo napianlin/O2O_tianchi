@@ -72,5 +72,5 @@ user_off_getCoup = t9.groupby(by=['User_id']).agg('sum')
 
 
 data= pd.concat([user_on_action,user_on_nopurchase_times,user_on_purchase_coup_times,user_off_nopurchase_times,user_off_purchase_times,user_off_getCoup],axis=1)
-data.replace(np.nan,0,inplace=True)
+data.replace(np.nan,0,inplace=True);
 print data

@@ -61,7 +61,7 @@ def dataFrame_Test():
     # < class 'pandas.core.frame.DataFrame'>
     #一定要注意这里面的区别data2['b']是Series，data2[['b']]是DataFrame，两个类在很多地方都是不一样的
 
-dataFrame_Test()
+dataFrame_Test();
 
 
 #注意 这个时候用了apply方法 注意与 agg的区别
